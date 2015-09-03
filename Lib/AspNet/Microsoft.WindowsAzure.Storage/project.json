@@ -36,9 +36,8 @@
                 "System.Runtime.Serialization.Primitives": "4.0.0-beta-*",
                 "System.Runtime.Serialization.Xml": "4.0.10-beta-*",
                 "System.Security.Cryptography.Encoding": "4.0.0-beta-*",
-                "System.Security.Cryptography.Encryption": "4.0.0-beta-*",
-                "System.Security.Cryptography.Hashing": "4.0.0-beta-*",
-                "System.Security.Cryptography.Hashing.Algorithms": "4.0.0-beta-*",
+                "System.Security.Cryptography.Primitives": "4.0.0-beta-*",
+                "System.Security.Cryptography.Algorithms": "4.0.0-beta-*",
                 "System.Text.Encoding": "4.0.10-beta-*",
                 "System.Text.Encoding.Extensions": "4.0.10-beta-*",
                 "System.Text.RegularExpressions": "4.0.10-beta-*",
@@ -96,9 +95,5 @@
         "../../WindowsRuntime/Table/*.cs",
         "../../WindowsRuntime/Table/DataServices/*.cs",
         "../../WindowsRuntime/Table/Protocol/*.cs"
-
-        /*
-        Note, WinRT does not include "../../Common/Table/Queryable/*.cs", so we won't either
-        */
     ]
 }
